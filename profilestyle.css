@@ -13,6 +13,11 @@ body{
 
 
 }
+iframe{
+    width:100%;
+    height:550px;
+    border:none;
+}
 div.cover{
     background : url(cover_overlay.png) no-repeat center/100% 100%,url(cover.jpg) no-repeat center/cover;
     height :360px;
@@ -89,7 +94,7 @@ div.cover-contact a:hover{
 }
 
 .gray-1{
-    background: url(triangle2white.svg) no-repeat center bottom/100%;
+    background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
     background-color:lightgray;
     
     padding-bottom:100px;
